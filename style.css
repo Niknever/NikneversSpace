@@ -1,0 +1,35 @@
+
+table {
+	border: 2px solid lightgrey;
+}
+
+td {
+	border: 1px solid black;
+	width: 50px;
+	text-align: center;
+}
+
+.yellow:hover {
+	border-color: green;
+	color: red;
+	border: 2px solid green;
+    font-size: 20px;
+}
+
+.blue:hover {
+	background-color: blue;
+	color: green;
+	border: 2px dotted darkblue;
+	font-size: 20px;
+}
+
+th:hover {
+	border: 3px solid brown;
+}
+
+
+th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
