@@ -1,35 +1,35 @@
-
-table {
-	border: 2px solid lightgrey;
+#divik {
+	border: 1px solid #707070;
+	width: 700px;
+	margin: 0px auto;
+	padding: 5px;
+	text-align: justify;
 }
 
-td {
-	border: 1px solid black;
-	width: 50px;
-	text-align: center;
+#divik div {
+	margin-bottom: 20px;
+	border: 1px solid #707070;
+	padding: 20px;
 }
 
-.yellow:hover {
-	border-color: green;
-	color: red;
-	border: 2px solid green;
-    font-size: 20px;
+#divik h2 {
+	margin: 0px;
 }
 
-.blue:hover {
-	background-color: blue;
-	color: green;
-	border: 2px dotted darkblue;
-	font-size: 20px;
+#divik a:link, #divik a:visited {
+	color: blue ;
+	text-decoration: none;
 }
 
-th:hover {
-	border: 3px solid brown;
+#divik a:hover{
+	text-decoration: underline;
 }
 
-
-th {
-	border: 1px solid black;
-	padding: 10px;
+#divik p {
+	margin: 10px 0px;
 }
 
+#divik .ssylka {
+	text-align: right;
+	padding-right: 20px;
+}
