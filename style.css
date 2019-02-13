@@ -7,7 +7,7 @@
 }
 
 #divik div {
-	margin-bottom: 20px;
+	margin-bottom: 20px;/*внешний отступ снизу*/
 	border: 1px solid #707070;
 	padding: 20px;
 }
