@@ -1,6 +1,6 @@
 #divik {            
 	border: 1px solid #707070;  
-	width: 700px;
+	width: 800px;
 	margin: 0px auto;
 	padding: 5px;
 	background-color: #EAE3EA;
@@ -8,14 +8,6 @@
 }
 
 
-
-#divik #header {    
-	background-color: #85CB67;
-	border-radius: 0px;
-	margin: -5px -5px 5px -5px;
-	padding: 5px 0px 0px 0px;
-	height: 25px;
-}
 
 
 #divik div {
@@ -33,6 +25,8 @@
 #divik a:link, #divik a:visited {
 	text-decoration: none;
 	color: #645067;
+	border: 1px solid white;
+	border-radius: 3px;  
 }
 
 #divik a:hover{
@@ -45,26 +39,14 @@
 	margin: 10px 0px;
 }
 
-#header p {
-	color: white;
-	text-align: center;
-	margin: 0px 0px;
-}
 
-#header p a:link, #header p a:visited {
-	color: white;
-}
-
-#header p a:hover {
-	border: 1px solid white;
-}
 
 #divik .ssylka {
 	text-align: right;
 	padding-right: 20px;
 }
 
-img {
+#divik img {
 	width: 250px;
 	float: left;
 	border: 1px solid black;
