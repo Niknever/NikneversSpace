@@ -1,69 +1,43 @@
-#header {
-	width: 812px;
-	margin: 0px auto;
-	height: 142px;
-	background-color: #645067;
-	color: white;
-	padding: 0px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic,latin-ext');
 
-#header img {
-	width: 100%;
-	margin: 0px;
-	display: block;
-}
-
-#header .menu {
-	width: 100%;
-	background-color: #0f1c34;
-	font-family: Arial;
-	padding: 0px;
-	margin: 0px;
-}
-
-#header .menu 	li  {
-	display: inline-block;			/* Свойство похожее на FLOAT ,но оно превращает элементы в блочные*/
-}
-
-#header .menu  a:link , #header .menu  a:visited {
-	color: white;
-	text-decoration: none;
-	display: block;
-	padding: 0px 13px;
-	line-height: 35px;
-	text-align: center;
+header {
+	font-family: 'Russo One', sans-serif;
+	text-align: justify;
 	font-size: 13px;
-	/*transition-property: background-color;
-	transition-duration: 2s;
-	transition-timing-function: ease;
-	transition-delay: 0s;*/
-	transition: all 2s ease;
+	position: relative;
+	letter-spacing: 2px;			/*расстояние между буквами*/
+	padding: 2em 4% 0px 4%;			/*2em-2 размера шрифта         4%-4% от родительского элемента*/
+	background: rgba(13,31,43,0.6);		/*r-red g-green b-blue a-прозрачность*/
+	color: white;
 }
 
-#header .menu  a:hover {
-	color: red;
-	text-decoration: none;
-	background-color: #2c399e;
-	font-weight: none;
+header nav, header h1 {
+	display: inline-block;		/*display является наиболее важным стилевым свойством в CSS для управления шаблоном. Каждый элемент имеет значение отображения по умолчанию в зависимости от того, к какому типу относится данный элемент. Для большинства элементов, значения отображения по умолчанию, как правило, будут block или inline. В оригинале, блочный элемент часто еще называют элементом блочного уровня(block-level element).У строчного же элемента нет альтернативного названия.*/
 }
 
-#header .menu  ul {
-		margin: 0px 0px 0px 13px;
-		padding: 0px;
-	}
+header a {
+	margin-left: 8px;
+	text-decoration: none;		
+	color: white;
+}
 
+header nav {
+	padding-top: 1em;
+	vertical-align: bottom;
+}
 
+header h1 {
+	height: 100%;
+	width: 30%;
+	text-align: left;
+	padding-top: 0.5em;
+	vertical-align: middle;
+	margin-bottom: 3px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+header::after {
+	content: '';
+	display: inline-block;		/*display является наиболее важным стилевым свойством в CSS для управления шаблоном. Каждый элемент имеет значение отображения по умолчанию в зависимости от того, к какому типу относится данный элемент. Для большинства элементов, значения отображения по умолчанию, как правило, будут block или inline. В оригинале, блочный элемент часто еще называют элементом блочного уровня(block-level element).У строчного же элемента нет альтернативного названия.*/
+	width: 100%;
+}
