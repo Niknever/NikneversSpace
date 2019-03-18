@@ -5,7 +5,7 @@ header {
 	font-family: 'Russo One', sans-serif;
 	text-align: justify;
 	font-size: 13px;
-	position: relative;
+	position: relative;				/* позиция относительно других элементов*/
 	letter-spacing: 2px;			/*расстояние между буквами*/
 	padding: 2em 4% 0px 4%;			/*2em-2 размера шрифта         4%-4% от родительского элемента*/
 	background: rgba(13,31,43,0.6);		/*r-red g-green b-blue a-прозрачность*/
@@ -41,3 +41,25 @@ header::after {
 	display: inline-block;		/*display является наиболее важным стилевым свойством в CSS для управления шаблоном. Каждый элемент имеет значение отображения по умолчанию в зависимости от того, к какому типу относится данный элемент. Для большинства элементов, значения отображения по умолчанию, как правило, будут block или inline. В оригинале, блочный элемент часто еще называют элементом блочного уровня(block-level element).У строчного же элемента нет альтернативного названия.*/
 	width: 100%;
 }
+
+header .unselected:link , header .unselected:visited {
+	color: #fff;
+	text-decoration: none ;
+	opacity: 0.6;
+	transition: opacity 1s ease;
+}
+
+header .unselected:hover {
+	color: white;
+	opacity: 1;
+	text-shadow: 0px 0px 2px rgba(255,255,255,1);
+}
+
+header .selected:link , header .selected:visited {
+	color: #fff;
+	text-decoration: none ;
+	opacity: 1;
+	text-shadow: 0px 0px 2px rgba(255,255,255,1);		/* тень текста*/
+}
+
+div {
